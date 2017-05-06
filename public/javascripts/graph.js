@@ -53,7 +53,7 @@ function drawGraph() {
  * Adds data from the NamePop object
  * That you will need to write the code to
  * get (using AJAX) from the server.
- * @param namePop a Javascript object with keys for the name and each of the years
+ * @param namePop a Javascript object with keys for the name and each of the years.
  */
 function addLine(namePop) {
     data.addColumn('number', namePop['Name']);
